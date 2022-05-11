@@ -353,6 +353,10 @@ html {
   text-align: left;
 }
 
+.sub-title-reasons p {
+  margin-bottom: 20px;
+}
+
 .card__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,7 +365,7 @@ html {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -370,6 +374,7 @@ html {
 .card__item {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .card__item-title {
@@ -397,7 +402,7 @@ html {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  gap: 20px;
+  gap: 15px;
 }
 
 .list__item {
@@ -405,6 +410,7 @@ html {
   position: relative;
   margin-left: 50px;
   text-align: left;
+  margin-bottom: 15px;
 }
 
 .list__item .list__item-arrow {
