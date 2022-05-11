@@ -1,0 +1,40 @@
+.intro{
+	width: 100%;
+	height: 100vh;
+	background: url(/img/intro.png)  center / cover no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.intro__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.intro__title {
+	font-size: 30px;
+}
+.intro__button {
+	cursor: pointer;
+	margin-top: 50px;
+	svg{
+		transition: all 0.3s ease-in-out;
+		&:hover{
+			transform: translateY(10px);
+		}
+		fill: white;
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media(min-width:$md3){
+	.intro__title{
+		font-size: 50px;
+	}
+}
+@media(min-width:$md1){
+	.intro__title{
+		font-size: 70px;
+	}
+}
